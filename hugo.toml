@@ -1,0 +1,59 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = "Nyrs's garden"
+theme = "bonsai"
+
+[params]
+user = "[nyr"
+hostname = "home]"
+readingTime = false
+
+  [params.author]
+    name = "Nyrs's garden"
+    email = "aiclys@proton.me"
+
+  [[params.social]]
+  key = 0
+  name = "github"
+  url = "https://github.com/Aiclys"
+
+  [[params.social]]
+  key = 1
+  name = "gitlab"
+  url = "https://www.gitlab.com/Aiclys"
+
+  [[params.social]]
+  key = 2
+  name = "mastodon"
+  url = "https://www.example.com"
+  rel = "me"  # You can also add rel to social link
+
+  [[params.social]]
+  key = 3
+  name = "email"
+  url = "mailto:aiclys@proton.me"
+  Name = "Nyr"
+  HeaderUsername = "welcome"
+  HeaderHostname = "nyrslab.org"
+  About = "Welcome to my corner of the internet! This is a place for me to share my thoughts on random topics, mostly related to online privacy, philosophy, programming or IT in general."
+[menu]
+  [[menu.header]]
+    name = "about"
+    weight = 0
+    url = "/about"
+
+  [[menu.header]]
+    name = "posts"
+    weight = 0
+    url = "/posts/postsintro"
+
+  [[menu.header]]
+    name = "projects"
+    weight = 0
+    url = "/projects"
+
+  [[menu.header]]
+    name = "resources"
+    weight = 0
+    url = "/resources"
+
