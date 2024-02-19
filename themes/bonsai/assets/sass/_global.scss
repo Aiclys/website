@@ -1,0 +1,44 @@
+@import "./utils/variables";
+
+body {
+  font-family: $fontParagraph;
+  color: $beige;
+  background-color: $brown;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+a {
+  color: $purple;
+}
+
+strong {
+  color: $lightblue;
+}
+
+pre code {
+  font-family: $fontCode;
+  font-size: 75%;
+  display: block;
+  background: $beige;
+  color: $brown;
+  padding: 10px;
+  overflow: auto;
+}
+
+code {
+  font-family: $fontCode;
+  font-size: 75%;
+}
+
+@for $i from 1 through 6 {
+  h#{$i} {
+    font-family: $fontHeader;
+  }
+}
+
+@-ms-viewport{
+  width: device-width;
+}

@@ -1,0 +1,12 @@
+name = "Bonsai"
+license = "MIT"
+licenselink = "https://github.com/LordMathis/hugo-theme-nightfall//blob/master/LICENSE"
+description = "Minimal gruvbox theme for Hugo"
+homepage = "https://codeberg.com/Nyrs/hugo-theme-bonsai"
+tags = ["minimal", "dark", "blog", "sass", "multilingual"]
+features = ["blog", "sass", "dark", "multilingual"]
+min_version = "0.80.0"
+
+[author]
+name = "Nyrs"
+homepage = "https://nyrsgarden.org/"
