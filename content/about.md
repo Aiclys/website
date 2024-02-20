@@ -10,7 +10,7 @@ date = 2024-01-12T19:02:35+01:00
 
 # About Me 
 
-### Hi! I am a german student who is very passionate about GNU/Linux (BSD is pretty cool aswell), FLOSS, programming and cryptography. I am also an avid reader(I'm currently reading Necronomicon from HP Lovecraft and it's a masterpiece!) so I might write a review of a book I read. You can contact me via email by clicking [here](mailto:aiclys@proton.me)
+### Hi! I am a german student who is very passionate about GNU/Linux (BSD is pretty cool aswell), FLOSS, programming and cryptography. I am also an avid reader so I might write a review of a book I read. You can contact me via email by clicking [here](mailto:aiclys@proton.me)
 &nbsp;
 &nbsp;
 &nbsp;
