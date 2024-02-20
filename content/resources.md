@@ -12,11 +12,11 @@ date = 2024-01-12T19:42:33+01:00
 
 ### and here is the source code for HTML:
 ```
-<a href="htps://nyrslab.org/"><img src="https://nyrslab.org/static/mybutton.png" alt="Nyr's Lab"></a>
+<a href="htps://nyrs.garden/"><img src="https://nyrs.garden/static/mybutton.png" alt="Nyr's Garden"></a>
 ```
 ### and Markdown:
 ```
-[![Nyr's Lab](https://nyrslab.org/static/mybutton.png)](https://nyrslab.org/)
+[![Nyr's Garden](https://nyrs.garden/static/mybutton.png)](https://nyrs.garden/)
 ```
 
 ### Index:
