@@ -44,8 +44,6 @@ date = 2024-01-12T19:02:35+01:00
 
 ### Minimalism or why I hate bloat
 #### I love simplicity. I try to maximise the use of CLI software that follows the UNIX (Do one thing and do it well while being extensible simple) and KISS (Keep it simple, stupid!) philosophy. These are often keyboard driven which enables me to be much more efficient and get things done much faster. This way there are also less distractions and it is often easier to use, despite popular belief. Of course, there are exceptions: I don’t use the most minimalist Linux or BSD, I use some GUIs etc.
-
-#### Another thing I strongly dislike is bloat. Something is bloated if it is full of unnecessary features or things. A perfect example would be the modern internet. everything is full of malicious javascript that intends to steal you privacy and sell it to the highest bidder. Even recipe sites are full of javascript that is completely redundant. Why does every site need to connect to ten different Cloudflare or Google domains? This also leads to a poor experience on the end of the user. Everything is much slower than it needs to be and everyone needs to by a new PC or phone every 3 years. Bloat is also very prevalent in other applications. Take PowerPoint for example: Does it need to have a milloin of other features that nobody uses and that only complicate the use of it? Same thing with Thunderbird. Why does it try to be everything in one app? It’s never going to happen and it just slows down the app, enlargens the attack surface and phones home to several other services, who in turn also harvest your data.
 &nbsp;
 &nbsp;
 ## Software freedom, Richard Stallman and the FSF
