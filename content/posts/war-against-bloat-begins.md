@@ -18,4 +18,16 @@ tags = ["software", "web", "minimalism"]
 ## But what can I do about it?
 #### On the surface it seems like you can't do anything to combat the bloat, but there are alot of things you can do. First of all, use a content blocker when browsing the web. Not an adblocker but a content blocker. They are two different things. Content blockers also block ads but they also block a lot more. For example they can block paywall pop-ups, newsletter pop-ups, certain images, scripts etc. This way you don't need to see all of the ads and you will also notice an increase in performance when browsing the web as your computer won't have to load in that many scripts, ads etc. The best content blocker is uMatrix but for not so advanced users and the ease of use I would recommend uBlock Origin as uMatrix requires alot of tweaking to set it up and get it to work properly.
 
-#### Another thing you can do to reduce the bloat you come across is to use less bloated frontends. If you don't know what an alternative frontend is, it's basically a different looking version of a popular service/website. Take Youtube for example. There are alot of alternative frontends but the most famous and probably the best one is [Invidious](https://invidious.io/). It removes all of Youtubes
+#### Another thing you can do to reduce the bloat you come across is to use less bloated frontends. If you don't know what an alternative frontend is, it's basically a different looking version of a popular service/website. Take Youtube for example. There are alot of alternative frontends but the most famous and probably the best one is [Invidious](https://invidious.io/). It removes all of Youtubes inconvenients like the 10 connections to different google domains, the many trackers, ads and you can even downloads the videos for free without having to pay 9$ or so per month for Youtube Premium. There is a variety of different frontends for all of the famous services like [Nitter](https://github.com/zedeus/nitter/) for Twitter, [Libreddit](https://github.com/libreddit/libreddit/) for Reddit, [ProxiTok](https://github.com/pablouser1/ProxiTok/) for Tiktok, [Freetube](https://freetubeapp.io/) for Youtube and many more.
+
+#### If you want to evade bloat in software on your computer rather than on the web, then try to replace all or most of your apps with open source, privacy respecting ones that follow the Unix philosophy. Try to find alternatives by browsing websites like [Alternativeto](https://alternativeto.net). You'll quickly realize that there is a multitude of apps that are not only simpler, more extensible, more privacy respecting but also much faster than the ones you are currently using.
+
+#### The best but also "hardest" way to fight software bloat is to create unbloated software yourself. Contribute to the old web movement by making your own retro website, make your own blog without using javascript, try to build an alternative frontend for a service you are using, build unbloated weather apps, contribute to open source projects you like. 
+&nbsp;
+&nbsp;
+## Conclusion
+#### To conclude, modern software and the vast majority of the internet is full of nonsense and unnecessary things. Now it's up to you to decide whether you want to do something about it or not. In the end, this is just me complaining about the current state of things online. 
+&nbsp;
+&nbsp;
+&nbsp;
+## [Go back](/posts/postsintro)
