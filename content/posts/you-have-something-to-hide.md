@@ -36,3 +36,29 @@ tags = ["Online privacy", "Society"]
 #### This can be and is already used regularly to deanonimze activists and other people that are considered to be as a threat to the state. The level of intrusion becomes even more frightening once you realize how much data can be collected across a whole population. It has even come so far that your online behavior can accurately be predicted by social media algorithms like the TikTok and the Instagram algorithm. Don't think that it can't get worse. Artificial intelligence and algorithms are only getting better and better which leaves us to wonder to what degree the surveillance will grow in the future.
 
 #### If you want to get a feeling of what data is being harvested through your browser alone, visit [this site](https://coveryourtracks.eff.org/). You can also read some articles about the power of metadata like [this one](https://www.abc.net.au/news/2015-08-17/metadata-retention-privacy-phone-will-ockenden/6694152) (it is a bit older which means that even more is being collect nowadays) which will give you a little insight into the tracking device you call your phone. For the lazy folks that don't want to read other articles I'll list some of the things that can be known about you at any moment on the internet, keep in mind that this is only the tip of the iceberg:
+- #### your location
+- #### the place you are going to
+- #### your home address
+- #### all of your contacts
+- #### the people you are communicating with
+- #### your family members
+- #### your religious beliefs
+- #### your political beliefs
+- #### your desires
+- #### your full name
+- #### your date of birth
+- #### your age
+- #### your sympathies
+- #### your wealth status
+#### and much more.
+
+&nbsp;
+&nbsp;
+## Global surveillance
+#### Edward Snowden is one of the most infamous whistleblowers to exist. He leaked countless classified documents regarding the global mass surveillance programs of the NSA and the [Five Eyes](https://en.wikipedia.org/wiki/Five_Eyes). Thanks to his work we now know that we are constantly being monitored by the government and big tech companies as he revealed that they were working together under a program with the name of [PRISM](https://en.wikipedia.org/wiki/PRISM). The countries that are involved are [the US, the UK, Australia, Germany, New Zealand, Canada, Denmark, France, Netherlands, Norway, Belgium, Italy, Spain and Sweden.](https://cybernews.com/resources/5-eyes-9-eyes-14-eyes-countries/), which can be described as the 5/9/14 eyes alliance. This aliance is essentially a global surveillance alliance, which has far-reaching implications for personal privacy. The full extent of how much the intelligence agencies in these countries know about you is vague and likely to never be known exactly, but [Snowden's leaks](https://www.businessinsider.com/snowden-leaks-timeline-2016-9?op=1&r=US&IR=T) make it clear that your online activities, phone conversations and basically everything about your digital life are a part of it.  
+&nbsp;
+&nbsp;
+## Surveillance does not protect you
+#### Contrary to popular belief, government surveillance does not protect you. Many, many internet censorship laws are currently being passed under the false pretext of being for the safety of the population while it's actually being used to strengthen the state's already firm grip on it's inhabitants. Furthermore, [a 2013 survey of US writers](https://pen.org/research-resources/chilling-effects/) shows that a large portion of writers self-censored after the revelation of the NSA surveillance by Edward Snowden. Moreover, [another study](https://pen.org/press-clip/writers-say-they-feel-censored-by-surveillance/) confirms that a significant majority of writers said they were deeply concerned with government surveillance, with many reporting that they even avoided, or have considered avoiding, controversial topics in their work as a result.
+
+#### Society as a whole strongly benefits from the progress that occurs when activists and journal
