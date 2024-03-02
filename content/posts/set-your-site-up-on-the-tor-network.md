@@ -41,3 +41,39 @@ date = 2024-02-28T19:42:33+01:00
 ### Configuring Nginx
 #### Create the configuration file by using the following command:
         vim /etc/ngin/sites-available/torsite
+#### Or type the following command if you use nano:
+        nano /etc/nginx/sites-available/torsite
+#### In this example I named the file torsite but you can give it whatever name you want. 
+#### After creating the file you need to add the following content to it: 
+        server {
+            listen 127.0.0.1:80 ;
+            root /var/www/website ;
+            index index.html ;
+            server_name example.onion ;
+        }
+#### Again, replace example.onion with your onion address (you can also create a customized one by following the steps in [this article](/posts/custom-onion)) and replace the path after root to the path to your website folder.
+&nbsp;
+&nbsp;
+## Enabling the website
+#### After saving the file, you need to tell nginx that the website should be enabled. To do that you need to create a symbolic link by typing this command:
+        ln -s /etc/nginx/sites-available/website /etc/nginx/sites-enabled
+#### Now you can restart the nginx service by typing one of these commands:
+        systemctl restart nginx
+        systemctl reload nginx
+&nbsp;
+&nbsp;
+## Optional
+#### If you have a clearnet website and want to advertise your onion mirror to Tor users, add the following code snippet to your nginx configuration file to add to onion-location header:
+        server {
+                ...
+                add_header Onion-Location http://example.onion$request_uri;
+        }
+&nbsp;
+&nbsp;
+## Maintenance
+#### Always update all of your packages on a regular basis! To do this type the following command:
+        apt update
+        apt upgrade
+&nbsp;
+&nbsp;
+## [Go back](/posts/postsintro)
