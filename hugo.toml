@@ -1,16 +1,16 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://nyrs.garden/'
 languageCode = 'en-us'
-title = "Nyrs's garden"
+title = "Nyrs' garden"
 theme = "bonsai"
 
 [params]
-user = "[nyr"
+user = "[nyrs"
 hostname = "home]"
-readingTime = false
+readingTime =true 
 
   [params.author]
-    name = "Nyrs's garden"
-    email = "aiclys@proton.me"
+    name = "Nyrs' garden"
+    email = "contact@nyrs.garden"
 
   [[params.social]]
   key = 0
@@ -19,23 +19,22 @@ readingTime = false
 
   [[params.social]]
   key = 1
+  name = "codeberg"
+  url = "https://www.codeberg.org/Nyrs"
+
+  [[params.social]]
+  key = 2
   name = "gitlab"
   url = "https://www.gitlab.com/Aiclys"
 
   [[params.social]]
-  key = 2
-  name = "mastodon"
-  url = "https://www.example.com"
-  rel = "me"  # You can also add rel to social link
-
-  [[params.social]]
   key = 3
   name = "email"
-  url = "mailto:aiclys@proton.me"
-  Name = "Nyr"
+  url = "mailto:contact@nyrs.garden"
+  Name = "Nyrs"
   HeaderUsername = "welcome"
-  HeaderHostname = "nyrslab.org"
-  About = "Welcome to my corner of the internet! This is a place for me to share my thoughts on random topics, mostly related to online privacy, philosophy, programming or IT in general."
+  HeaderHostname = "nyrs.garden"
+  About = "Welcome to my corner of the internet! This is a place for me to share my thoughts on random topics, mostly related to online privacy, philosophy, programming and anything else I find interesting."
 [menu]
   [[menu.header]]
     name = "about"
@@ -56,4 +55,3 @@ readingTime = false
     name = "resources"
     weight = 0
     url = "/resources"
-
