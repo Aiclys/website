@@ -4,14 +4,15 @@ date = 2024-01-12T19:02:35+01:00
 +++
 
 # About this website
-#### This website is my digital garden where I can share my thoughts freely without restrictions. I will mostly be rambling about recent projects of mine, philosophy, my Linux journey, online privacy and FLOSS(Free/Libre Open Source Software). Expect a new article/post once every month or so as I'm pretty busy with school.  
-
-
+#### This website is my digital garden where I can share my thoughts freely without restrictions. I will mostly be rambling about recent projects, philosophy, my Linux journey, online privacy and FLOSS (Free/Libre Open Source Software). 
+#### Expect a new article/post every two to three weeks as I'm pretty busy with school and other things. 
+#### Website mirrors:
+#### - [tor](http://nyrsydbakktpwyzginicurpxweh3c4g3726lawc5azgjlcmsmxz6uyad.onion)
+#### - [i2p]() (coming soon)
 
 # About Me 
 
-#### Hi! I am a german student who is very passionate about GNU/Linux (BSD is pretty cool aswell), FLOSS, programming and cryptography. I am also an avid reader so I might write a review of a book I read. You can contact me via email by clicking [here](mailto:aiclys@proton.me)
-&nbsp;
+#### I am a student who is very passionate about GNU/Linux (BSD is pretty cool as well), FLOSS, programming, cybersecurity and cryptography. I am also an avid reader so I might write some book reviews. You can contact me via email by clicking [here](mailto:contact@nyrs.garden)
 &nbsp;
 &nbsp;
 # Skills
@@ -21,7 +22,7 @@ date = 2024-01-12T19:02:35+01:00
 #### *- CSS*
 #### *- SQL*
 #### *- Python*
-#### *- Bash (does it count as a programming language? I might aswell put it here)*
+#### *- Bash (does it count as a programming language? I might as well put it here)*
 
 ## Technologies
 #### *- GitHub*
@@ -30,7 +31,7 @@ date = 2024-01-12T19:02:35+01:00
 #### *- Debian*
 #### *- Nginx*
 #### *- Vim (Neovim)*
-#### *- currently learning Emacs and it's many features*
+#### *- Currently learning Emacs and its many features*
 &nbsp;
 &nbsp;
 &nbsp;
@@ -40,13 +41,14 @@ date = 2024-01-12T19:02:35+01:00
 ## Tech stuff
 
 ### Progamming
-#### I learned HTML and CSS about 3 years ago and created my first “real” website shortly after. I am now learning learning Python and Go, which are both very useful languages in cybersecurity.
+#### I learned HTML and CSS about 3 years ago and created my first "real" website shortly after. I am now learning Python and Go, which are both very useful languages in cybersecurity.
 
 ### Minimalism or why I hate bloat
-#### I love simplicity. I try to maximise the use of CLI software that follows the UNIX (Do one thing and do it well while being extensible simple) and KISS (Keep it simple, stupid!) philosophy. These are often keyboard driven which enables me to be much more efficient and get things done much faster. This way there are also less distractions and it is often easier to use, despite popular belief. Of course, there are exceptions: I don’t use the most minimalist Linux or BSD, I use some GUIs etc.
+#### I love simplicity. I try to maximise the use of CLI software that follows the UNIX (Do one thing and do it well while being extensible simple) and KISS (Keep it simple, stupid!) philosophy. These are often keyboard driven which enables me to be much more efficient and get things done much faster. This way there are also less distractions and it is often easier to use, despite popular belief. Of course, there are exceptions: I don't use the most minimalist Linux or BSD, I use some GUIs etc. 
 &nbsp;
 &nbsp;
 ## Software freedom, Richard Stallman and the FSF
-#### I care alot about FOSS/FLOSS software and try to replace as many apps I use with free, open source alternatives. This doesn’t mean though that I share the same perspective as most Richard Stallman or GNU or FSF enthusiasts.
 
-#### The freedom of software is very important, as the user regains control over his computer instead of it being handed over to big corporations; though it is important not to promote free software that has flaws concerning its security or other aspects, as it is often counterproductive. As Seirdy said, one of the multiple requirements of good and free software is to avoid the risk of user domestication.
+#### I care a lot about FLOSS software and try to replace as many apps I use with free, open source alternatives. This doesn't mean though that I share the same perspective as most Richard Stallman or GNU or FSF enthusiasts. 
+
+#### The freedom of software is very important, as the user regains control over his computer instead of it being handed over to big corporations; though it is important not to promote free software that has flaws concerning its security or other aspects, as it is often counterproductive. As [someone on the internet](https://seirdy.one/) said (always trust people you don't know on the internet), one of the multiple requirements of good and free software is to avoid the risk of [user domestication](https://seirdy.one/posts/2021/01/27/whatsapp-and-the-domestication-of-users/).  
