@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Nyrs&#39; garden</title>
+    <link>https://nyrs.garden/tags/</link>
+    <description>Recent content in Tags on Nyrs&#39; garden</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 02 Mar 2024 19:42:33 +0100</lastBuildDate><atom:link href="https://nyrs.garden/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>online privacy</title>
+      <link>https://nyrs.garden/tags/online-privacy/</link>
+      <pubDate>Sat, 02 Mar 2024 19:42:33 +0100</pubDate>
+      
+      <guid>https://nyrs.garden/tags/online-privacy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>self host</title>
+      <link>https://nyrs.garden/tags/self-host/</link>
+      <pubDate>Sat, 02 Mar 2024 19:42:33 +0100</pubDate>
+      
+      <guid>https://nyrs.garden/tags/self-host/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>web</title>
+      <link>https://nyrs.garden/tags/web/</link>
+      <pubDate>Sat, 02 Mar 2024 19:42:33 +0100</pubDate>
+      
+      <guid>https://nyrs.garden/tags/web/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>how-to</title>
+      <link>https://nyrs.garden/tags/how-to/</link>
+      <pubDate>Wed, 28 Feb 2024 19:42:33 +0100</pubDate>
+      
+      <guid>https://nyrs.garden/tags/how-to/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Society</title>
+      <link>https://nyrs.garden/tags/society/</link>
+      <pubDate>Mon, 29 Jan 2024 19:42:33 +0100</pubDate>
+      
+      <guid>https://nyrs.garden/tags/society/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>minimalism</title>
+      <link>https://nyrs.garden/tags/minimalism/</link>
+      <pubDate>Mon, 29 Jan 2024 19:02:35 +0100</pubDate>
+      
+      <guid>https://nyrs.garden/tags/minimalism/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>software</title>
+      <link>https://nyrs.garden/tags/software/</link>
+      <pubDate>Mon, 29 Jan 2024 19:02:35 +0100</pubDate>
+      
+      <guid>https://nyrs.garden/tags/software/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>arch</title>
+      <link>https://nyrs.garden/tags/arch/</link>
+      <pubDate>Sat, 20 Jan 2024 21:37:03 +0100</pubDate>
+      
+      <guid>https://nyrs.garden/tags/arch/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>linux</title>
+      <link>https://nyrs.garden/tags/linux/</link>
+      <pubDate>Sat, 20 Jan 2024 21:37:03 +0100</pubDate>
+      
+      <guid>https://nyrs.garden/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>index</title>
+      <link>https://nyrs.garden/tags/index/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://nyrs.garden/tags/index/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

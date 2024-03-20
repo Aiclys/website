@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <title>
+How to generate a customized .onion address | Nyrs&#39; garden
+</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<meta name="generator" content="Hugo 0.111.3">
+
+
+<link rel="canonical" href="https://nyrs.garden/posts/custom-onion/" >
+<link href="/sass/main.min.aaad498cf998824a7056debe580888fe9904573d5d6db770f858c0dc6f3b8914.css" rel="stylesheet">
+
+
+
+</head>
+
+<body>
+
+    <div class="flexWrapper">
+        <header class="headerWrapper">
+    <div class="header">
+        <div>
+            <a href="https://nyrs.garden/">
+                <span class="terminal">[nyrs@home] ~ $</span>
+            </a>
+        </div>
+        <input class="side-menu" type="checkbox" id="side-menu">
+        <label class="hamb" for="side-menu"><span class="hamb-line"></span></label>
+        <nav class="headerLinks">
+            <ul>
+                
+                <li>
+                    <a href="https://nyrs.garden/about" title="" >
+                        ~/about</a>
+                </li>
+                
+                <li>
+                    <a href="https://nyrs.garden/posts/postsintro" title="" >
+                        ~/posts</a>
+                </li>
+                
+                <li>
+                    <a href="https://nyrs.garden/projects" title="" >
+                        ~/projects</a>
+                </li>
+                
+                <li>
+                    <a href="https://nyrs.garden/resources" title="" >
+                        ~/resources</a>
+                </li>
+                
+            </ul>
+        </nav>
+    </div>
+</header>
+
+
+        <div class="content">
+            <main class="main">
+                
+<div class="postWrapper">
+    <h1>How to generate a customized .onion address</h1>
+    
+    <section class="postMetadata">
+        <dl>
+            
+                
+<dt>tags</dt>
+<dd><span></span>
+    <a href="/tags/how-to/">#how-to</a><span></span>
+    <a href="/tags/online-privacy/">#online privacy</a><span></span>
+    <a href="/tags/self-host/">#self host</a></dd>
+            
+            
+            
+            
+                <dt>published</dt>
+                
+                <dd><time datetime="2024-02-19">February 19, 2024</time></dd>
+            
+            
+                <dt>reading time</dt>
+                <dd>2 minutes</dd>
+            
+        </dl>
+    </section>
+    
+    <div>
+        <h4 id="after-following-this-guidepostsset-your-site-up-on-the-tor-network-you-should-have-a-working-tor-onion-site-this-onion-domain-will-be-generated-randomly-and-most-likely-wont-have-anything-to-do-with-the-actual-domain-name-of-your-clearnet-site-to-changes-this-you-can-use-a-tool-called-mkp224ohttpsgithubcomcathuggermkp224o-to-generate-a-vanity-tor-onion-v3-address-this-guide-will-be-for-debian-users-but-its-pretty-easy-to-do-it-on-any-other-os-you-just-have-to-know-the-name-of-the-packages-in-the-repos-of-you-distro-and-change-the-command-a-little-bit-to-fit-your-package-manager">After following <a href="/posts/set-your-site-up-on-the-tor-network">this guide</a> you should have a working tor .onion site. This .onion domain will be generated randomly and most likely won&rsquo;t have anything to do with the actual domain name of your clearnet site. To changes this you can use a tool called <a href="https://github.com/cathugger/mkp224o">mkp224o</a> to generate a vanity tor onion v3 address. This guide will be for Debian users but it&rsquo;s pretty easy to do it on any other os, you just have to know the name of the packages in the repos of you distro and change the command a little bit to fit your package manager.</h4>
+<h3 id="install-dependencies">Install dependencies</h3>
+<pre tabindex="0"><code>sudo apt install gcc libc6-dev libsodium-dev make autoconf
+</code></pre><h3 id="clone-the-git-repo">Clone the Git repo</h3>
+<pre tabindex="0"><code>git clone https://github.com/cathugger/mkp224o.git
+</code></pre><h3 id="change-into-the-mkp224o-directory">Change into the mkp224o directory</h3>
+<pre tabindex="0"><code>cd mkp224o
+</code></pre><h3 id="building-mkp224o">Building mkp224o</h3>
+<pre tabindex="0"><code>./autogen.sh
+./configure
+make
+</code></pre><h3 id="generating-the-vanity-address">Generating the vanity address</h3>
+<h4 id="replace-desired-key-with-the-key-you-want-for-example-the-first-5-letters-of-your-clearnet-domain-the-shorter-the-key-the-less-time-it-will-take-to-generate-it-you-also-need-to-replace-number-of-threads-with-the-number-of-threads-you-want-to-use-for-this-operation-the-more-threads-you-use-the-faster-it-will-generate-the-address">Replace &ldquo;desired-key&rdquo; with the key you want, for example the first 5 letters of your clearnet domain. The shorter the key, the less time it will take to generate it. You also need to replace &ldquo;number-of-threads&rdquo; with the number of threads you want to use for this operation (the more threads you use, the faster it will generate the address).</h4>
+<pre tabindex="0"><code>./mkp224o desired-key -v -n 1 -d -d ~/new_onion -t number-of-threads
+</code></pre><h3 id="copying-the-address-to-the-tor-hidden-service-directory">Copying the address to the tor hidden service directory</h3>
+<pre tabindex="0"><code>cp -r ~/new_onion/name-of-your-address/ /var/lib/tor/hidden_service
+cd /var/lib/tor/hidden_service/name-of-your-address/
+cp * /var/lib/tor/hidden_service/
+</code></pre><h3 id="restarting-tor">Restarting tor</h3>
+<pre tabindex="0"><code>sudo systemctl restart tor
+</code></pre><h4 id="to-check-if-everything-worked-correctly-use-this-command">To check if everything worked correctly use this command:</h4>
+<pre tabindex="0"><code>cat /var/lib/tor/hidden_service/hostname
+</code></pre><h4 id="if-this-now-outputs-the-correct-onion-address-it-worked-just-fine">If this now outputs the correct .onion address, it worked just fine.</h4>
+<p> 
+ </p>
+<h2 id="go-backpostspostsintro"><a href="/posts/postsintro">Go back</a></h2>
+
+    </div>
+</div>
+
+            </main>
+        </div>
+
+
+        <footer class="footer">
+    
+        <span>
+            
+           <b>"Free as in freedom of speech, not as in free beer." - RMS</b>
+        </span>
+    
+</footer>
+
+    </div>
+
+</body>
+
+</html>

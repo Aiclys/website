@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>how-to on Nyrs&#39; garden</title>
+    <link>https://nyrs.garden/tags/how-to/</link>
+    <description>Recent content in how-to on Nyrs&#39; garden</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 28 Feb 2024 19:42:33 +0100</lastBuildDate><atom:link href="https://nyrs.garden/tags/how-to/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Set up your website on the tor network</title>
+      <link>https://nyrs.garden/posts/set-your-site-up-on-the-tor-network/</link>
+      <pubDate>Wed, 28 Feb 2024 19:42:33 +0100</pubDate>
+      
+      <guid>https://nyrs.garden/posts/set-your-site-up-on-the-tor-network/</guid>
+      <description>Setting up your own website on the Tor network has many benefits, one of them being that you only need a server and no domain name to set it up. Another benefit is the privacy provided by .onion domains and the Tor network in general. Most registrars publish your personal information, which can be viewed on the public WHOIS database, for everyone to view and access. Furthermore, it is very easy to set up if you already have a clearnet website like mine.</description>
+    </item>
+    
+    <item>
+      <title>How to generate a customized .onion address</title>
+      <link>https://nyrs.garden/posts/custom-onion/</link>
+      <pubDate>Mon, 19 Feb 2024 19:42:33 +0100</pubDate>
+      
+      <guid>https://nyrs.garden/posts/custom-onion/</guid>
+      <description>After following this guide you should have a working tor .onion site. This .onion domain will be generated randomly and most likely won&amp;rsquo;t have anything to do with the actual domain name of your clearnet site. To changes this you can use a tool called mkp224o to generate a vanity tor onion v3 address. This guide will be for Debian users but it&amp;rsquo;s pretty easy to do it on any other os, you just have to know the name of the packages in the repos of you distro and change the command a little bit to fit your package manager.</description>
+    </item>
+    
+  </channel>
+</rss>

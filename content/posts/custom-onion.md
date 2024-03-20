@@ -1,5 +1,5 @@
-++
-title = 'How to generate a customized .onion domain'
++++
+title = 'How to generate a customized .onion address'
 author = 'Nyrs'
 tags = ["how-to", "online privacy", "self host"]
 date = 2024-02-19T19:42:33+01:00

@@ -44,7 +44,7 @@ readingTime =true
   [[menu.header]]
     name = "posts"
     weight = 0
-    url = "/posts/postsintro"
+    url = "posts/postsintro"
 
   [[menu.header]]
     name = "projects"
