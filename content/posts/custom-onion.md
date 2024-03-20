@@ -1,4 +1,4 @@
-++
++++
 title = 'How to generate a customized .onion domain'
 author = 'Nyrs'
 tags = ["how-to", "online privacy", "self host"]
