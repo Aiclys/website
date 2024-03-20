@@ -25,3 +25,4 @@ tags = ["index"]
 # Self-host
 - #### [Set up your website on the tor network](/posts/set-your-site-up-on-the-tor-network)
 # Programming
+- #### [Contributing to open source projects with git](/posts/git-cheatsheet)
