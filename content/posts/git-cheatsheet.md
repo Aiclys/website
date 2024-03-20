@@ -41,7 +41,39 @@ git --global user.email
 #### There is a lot more configuring you can do. Visit the [git website](https://git-scm.com/book/en/v2/) and the [GitHub website](https://docs.github.com/en/get-started/getting-started-with-git/) for more information.
 
 ### Step 2: Fork and clone the desired project
-#### Before making any changes to a project you first need to create a fork and clone it into your local machine. To do so use the following commands:
+#### Before making any changes to a project you first need to create a fork and clone it into your local machine. First, fork the repo by clicking on the fork button:
+![fork repository](/git_fork.png)
+#### After forking the repo, clone it:
+```
+git clone https://github.com/username/repo_name
 ```
 
+### Step 3: Creating a new branch
+#### After cloning the repo it's best practice to create a new branch. Make sure that you are in the projects directory:
 ```
+cd project_directory_name
+```
+#### Now. create a new branch with the command:
+```
+git checkout -b branch_name
+```
+
+### Step 4: Making changes to the project
+#### Now, it is time to make the changes you intended to make. To see all changes you have made, use the following command:
+```
+git status
+```
+
+### Step 5: Adding and commiting the changes
+#### After making the desired changes, it is time to add and commit them:
+```
+git add *
+git commit -m "your commit message"
+```
+
+### Step 6: Pushing the changes to the repository
+#### The last step is to push and submit the changes to the repository on GitHub (or any other source forge). To do so use the following command:
+```
+git push origin your_branch_name
+```
+#### Go to your GitHub repo and click on the 'compare and pull request button'. That's it! Your first contribution to an open-source project.

@@ -6,7 +6,16 @@
     <description>Recent content in how-to on Nyrs&#39; garden</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 28 Feb 2024 19:42:33 +0100</lastBuildDate><atom:link href="https://nyrs.garden/tags/how-to/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 20 Mar 2024 12:30:33 +0100</lastBuildDate><atom:link href="https://nyrs.garden/tags/how-to/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Contributing to open source projects with git</title>
+      <link>https://nyrs.garden/posts/git-cheatsheet/</link>
+      <pubDate>Wed, 20 Mar 2024 12:30:33 +0100</pubDate>
+      
+      <guid>https://nyrs.garden/posts/git-cheatsheet/</guid>
+      <description>This is a step by step guide on how to contribute to open source projects with git. It also acts as a cheatsheet for me as I always forget how to do it. Before telling you how you can contribute, I will tell you why you should even consider it. Why you should consider contributing to open source projects By contributing to public open source projects you can gain a lot of real-world experiencce and skills.</description>
+    </item>
+    
     <item>
       <title>Set up your website on the tor network</title>
       <link>https://nyrs.garden/posts/set-your-site-up-on-the-tor-network/</link>

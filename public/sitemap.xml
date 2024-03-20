@@ -2,29 +2,35 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://nyrs.garden/posts/everyone-should-have-a-website/</loc>
-    <lastmod>2024-03-02T19:42:33+01:00</lastmod>
+    <loc>https://nyrs.garden/posts/git-cheatsheet/</loc>
+    <lastmod>2024-03-20T12:30:33+01:00</lastmod>
+  </url><url>
+    <loc>https://nyrs.garden/tags/how-to/</loc>
+    <lastmod>2024-03-20T12:30:33+01:00</lastmod>
   </url><url>
     <loc>https://nyrs.garden/</loc>
+    <lastmod>2024-03-20T12:30:33+01:00</lastmod>
+  </url><url>
+    <loc>https://nyrs.garden/posts/</loc>
+    <lastmod>2024-03-20T12:30:33+01:00</lastmod>
+  </url><url>
+    <loc>https://nyrs.garden/tags/programming/</loc>
+    <lastmod>2024-03-20T12:30:33+01:00</lastmod>
+  </url><url>
+    <loc>https://nyrs.garden/tags/</loc>
+    <lastmod>2024-03-20T12:30:33+01:00</lastmod>
+  </url><url>
+    <loc>https://nyrs.garden/posts/everyone-should-have-a-website/</loc>
     <lastmod>2024-03-02T19:42:33+01:00</lastmod>
   </url><url>
     <loc>https://nyrs.garden/tags/online-privacy/</loc>
     <lastmod>2024-03-02T19:42:33+01:00</lastmod>
   </url><url>
-    <loc>https://nyrs.garden/posts/</loc>
-    <lastmod>2024-03-02T19:42:33+01:00</lastmod>
-  </url><url>
     <loc>https://nyrs.garden/tags/self-host/</loc>
-    <lastmod>2024-03-02T19:42:33+01:00</lastmod>
-  </url><url>
-    <loc>https://nyrs.garden/tags/</loc>
     <lastmod>2024-03-02T19:42:33+01:00</lastmod>
   </url><url>
     <loc>https://nyrs.garden/tags/web/</loc>
     <lastmod>2024-03-02T19:42:33+01:00</lastmod>
-  </url><url>
-    <loc>https://nyrs.garden/tags/how-to/</loc>
-    <lastmod>2024-02-28T19:42:33+01:00</lastmod>
   </url><url>
     <loc>https://nyrs.garden/posts/set-your-site-up-on-the-tor-network/</loc>
     <lastmod>2024-02-28T19:42:33+01:00</lastmod>
