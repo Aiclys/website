@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>programming on Nyrs&#39; garden</title>
+    <link>https://nyrs.garden/tags/programming/</link>
+    <description>Recent content in programming on Nyrs&#39; garden</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 20 Mar 2024 12:30:33 +0100</lastBuildDate><atom:link href="https://nyrs.garden/tags/programming/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Contributing to open source projects with git</title>
+      <link>https://nyrs.garden/posts/git-cheatsheet/</link>
+      <pubDate>Wed, 20 Mar 2024 12:30:33 +0100</pubDate>
+      
+      <guid>https://nyrs.garden/posts/git-cheatsheet/</guid>
+      <description>This is a step by step guide on how to contribute to open source projects with git. It also acts as a cheatsheet for me as I always forget how to do it. Before telling you how you can contribute, I will tell you why you should even consider it. Why you should consider contributing to open source projects By contributing to public open source projects you can gain a lot of real-world experiencce and skills.</description>
+    </item>
+    
+  </channel>
+</rss>

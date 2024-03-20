@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <title>
+Contributing to open source projects with git | Nyrs&#39; garden
+</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<meta name="generator" content="Hugo 0.111.3">
+
+
+<link rel="canonical" href="https://nyrs.garden/posts/git-cheatsheet/" >
+<link href="/sass/main.min.aaad498cf998824a7056debe580888fe9904573d5d6db770f858c0dc6f3b8914.css" rel="stylesheet">
+
+
+
+</head>
+
+<body>
+
+    <div class="flexWrapper">
+        <header class="headerWrapper">
+    <div class="header">
+        <div>
+            <a href="https://nyrs.garden/">
+                <span class="terminal">[nyrs@home] ~ $</span>
+            </a>
+        </div>
+        <input class="side-menu" type="checkbox" id="side-menu">
+        <label class="hamb" for="side-menu"><span class="hamb-line"></span></label>
+        <nav class="headerLinks">
+            <ul>
+                
+                <li>
+                    <a href="https://nyrs.garden/about" title="" >
+                        ~/about</a>
+                </li>
+                
+                <li>
+                    <a href="https://nyrs.garden/posts/postsintro" title="" >
+                        ~/posts</a>
+                </li>
+                
+                <li>
+                    <a href="https://nyrs.garden/projects" title="" >
+                        ~/projects</a>
+                </li>
+                
+                <li>
+                    <a href="https://nyrs.garden/resources" title="" >
+                        ~/resources</a>
+                </li>
+                
+            </ul>
+        </nav>
+    </div>
+</header>
+
+
+        <div class="content">
+            <main class="main">
+                
+<div class="postWrapper">
+    <h1>Contributing to open source projects with git</h1>
+    
+    <section class="postMetadata">
+        <dl>
+            
+                
+<dt>tags</dt>
+<dd><span></span>
+    <a href="/tags/how-to/">#how-to</a><span></span>
+    <a href="/tags/programming/">#programming</a></dd>
+            
+            
+            
+            
+                <dt>published</dt>
+                
+                <dd><time datetime="2024-03-20">March 20, 2024</time></dd>
+            
+            
+                <dt>reading time</dt>
+                <dd>3 minutes</dd>
+            
+        </dl>
+    </section>
+    
+    <div>
+        <h4 id="this-is-a-step-by-step-guide-on-how-to-contribute-to-open-source-projects-with-git-it-also-acts-as-a-cheatsheet-for-me-as-i-always-forget-how-to-do-it-before-telling-you-how-you-can-contribute-i-will-tell-you-why-you-should-even-consider-it">This is a step by step guide on how to contribute to open source projects with git. It also acts as a cheatsheet for me as I always forget how to do it. Before telling you how you can contribute, I will tell you why you should even consider it.</h4>
+<h2 id="why-you-should-consider-contributing-to-open-source-projects">Why you should consider contributing to open source projects</h2>
+<h4 id="by-contributing-to-public-open-source-projects-you-can-gain-a-lot-of-real-world-experiencce-and-skills-it-is-also-a-very-rewarding-way-to-learn-and-teach-by-writing-code-that-is-reviewed-and-corrected-by-other-people-you-learn-how-to-write-clean-and-ideally-bug-free-code-which-can-be-used-and-deployed-on-a-larger-scale-than-your-usual-personal-project-furthermore-it-can-be-a-great-way-to-find-people-who-are-willing-to-help-you-improve-and-share-your-skills-you-also-never-know-how-it-could-benefit-your-future-self-maybe-it-will-help-you-tremendously-to-have-contributed-to-a-certain-project-as-it-could-be-that-your-future-employer-find-the-code-you-have-written-another-huge-benefit-is-that-you-most-likely-will-learn-how-to-do-proper-documentation-most-middle-sized-to-large-projects-require-their-contributors-to-precisely-document-the-changes-they-made-this-way-you-dohnt-only-learn-to-write-cleaner-code-you-also-learn-how-to-describe-it-so-that-anyone-else-can-understand-it-moreover-most-contributors-start-their-journey-by-fixing-issues-in-the-code-of-others-or-helping-people-who-have-issues-using-the-app-this-can-help-you-spot-errors-and-in-turn-help-you-avoid-them">By contributing to public open source projects you can gain a lot of real-world experiencce and skills. It is also a very rewarding way to learn and teach. By writing code that is reviewed and corrected by other people you learn how to write clean and ideally bug-free code which can be used and deployed on a larger scale than your usual personal project. Furthermore, it can be a great way to find people who are willing to help you improve and share your skills. You also never know how it could benefit your future self, maybe it will help you tremendously to have contributed to a certain project as it could be that your future employer find the code you have written. Another huge benefit is that you most likely will learn how to do proper documentation. Most middle sized to large projects require their contributors to precisely document the changes they made. This way, you dohn&rsquo;t only learn to write cleaner code, you also learn how to describe it so that anyone else can understand it. Moreover, most contributors start their journey by fixing issues in the code of others or helping people who have issues using the app. This can help you spot errors and in turn help you avoid them.</h4>
+<h2 id="how-to-contribute">How to contribute</h2>
+<h4 id="this-guide-will-be-focused-on-github-based-contributions-but-the-steps-are-basically-the-same-on-codeberg-gitlab-gitea-sourcehut-and-other-source-forges">This guide will be focused on Github-based contributions but the steps are basically the same on Codeberg, Gitlab, Gitea, Sourcehut and other source forges.</h4>
+<h3 id="step-1-installing-and-configuring-git">Step 1: Installing and configuring git</h3>
+<h4 id="to-install-git-use-the-command-based-on-your-os">To install git use the command based on your OS:</h4>
+<h4 id="debian-based">Debian-based:</h4>
+<pre tabindex="0"><code>sudo apt install git
+</code></pre><h4 id="arch-based">Arch-based:</h4>
+<pre tabindex="0"><code>sudo pacman -S git
+</code></pre><h4 id="fedora-and-other-rpm-based-distros">Fedora and other RPM-based distros:</h4>
+<pre tabindex="0"><code>sudo dnf install git
+</code></pre><h4 id="after-installing-git-you-need-to-set-up-a-username-and-email-to-do-so-use-the-following-command-where-username-is-you-github-username-and-useremail-is-your-email">After installing git, you need to set up a username and email. To do so use the following command where username is you Github username and useremail is your email:</h4>
+<pre tabindex="0"><code>git --global user.name &#34;username&#34;
+git --global user.email &#34;useremail&#34;
+</code></pre><h4 id="to-check-if-everything-worked-correctly-type-the-following-commands">To check if everything worked correctly. type the following commands:</h4>
+<pre tabindex="0"><code>git --global user.name
+git --global user.email
+</code></pre><h4 id="there-is-a-lot-more-configuring-you-can-do-visit-the-git-websitehttpsgit-scmcombookenv2-and-the-github-websitehttpsdocsgithubcomenget-startedgetting-started-with-git-for-more-information">There is a lot more configuring you can do. Visit the <a href="https://git-scm.com/book/en/v2/">git website</a> and the <a href="https://docs.github.com/en/get-started/getting-started-with-git/">GitHub website</a> for more information.</h4>
+<h3 id="step-2-fork-and-clone-the-desired-project">Step 2: Fork and clone the desired project</h3>
+<h4 id="before-making-any-changes-to-a-project-you-first-need-to-create-a-fork-and-clone-it-into-your-local-machine-first-fork-the-repo-by-clicking-on-the-fork-button">Before making any changes to a project you first need to create a fork and clone it into your local machine. First, fork the repo by clicking on the fork button:</h4>
+<p><img src="/git_fork.png" alt="fork repository"></p>
+<pre tabindex="0"><code></code></pre>
+    </div>
+</div>
+
+            </main>
+        </div>
+
+
+        <footer class="footer">
+    
+        <span>
+            
+           <b>"Free as in freedom of speech, not as in free beer." - RMS</b>
+        </span>
+    
+</footer>
+
+    </div>
+
+</body>
+
+</html>

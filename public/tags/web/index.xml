@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>web on Nyrs&#39; garden</title>
+    <link>https://nyrs.garden/tags/web/</link>
+    <description>Recent content in web on Nyrs&#39; garden</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 02 Mar 2024 19:42:33 +0100</lastBuildDate><atom:link href="https://nyrs.garden/tags/web/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>(Almost) Everyone should have their own website</title>
+      <link>https://nyrs.garden/posts/everyone-should-have-a-website/</link>
+      <pubDate>Sat, 02 Mar 2024 19:42:33 +0100</pubDate>
+      
+      <guid>https://nyrs.garden/posts/everyone-should-have-a-website/</guid>
+      <description>I can proudly say that the last six months have been the most interesting months for the digital me. I have encountered so many interesting websites, most of them being personal websites/blogs related to technology, programming, online privacy and other things. I installed Linux for the first time in my life, I stopped playing video games. I created my own website. Many people don&amp;rsquo;t realize how many benefits they are to having your own website.</description>
+    </item>
+    
+    <item>
+      <title>The war against web bloat begins (totally didn&#39;t steal the title from Luke Smith&#39;s video)</title>
+      <link>https://nyrs.garden/posts/war-against-bloat-begins/</link>
+      <pubDate>Mon, 29 Jan 2024 19:02:35 +0100</pubDate>
+      
+      <guid>https://nyrs.garden/posts/war-against-bloat-begins/</guid>
+      <description>Why I dislike bloated software Something I strongly dislike is bloat. A piece of software can be described as being bloated if it is full of unnecessary or even unwanted features. A perfect example would be the modern internet. Everything is full of malicious javascript code that intends to steal your data, which is then sold to the highest bidder. The simplest, most basic sites like recipe sites are full of javascript, which greatly increases the attack surface and is completely redundant considering the use of the website.</description>
+    </item>
+    
+  </channel>
+</rss>

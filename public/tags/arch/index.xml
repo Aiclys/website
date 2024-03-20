@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>arch on Nyrs&#39; garden</title>
+    <link>https://nyrs.garden/tags/arch/</link>
+    <description>Recent content in arch on Nyrs&#39; garden</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 20 Jan 2024 21:37:03 +0100</lastBuildDate><atom:link href="https://nyrs.garden/tags/arch/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why arch is the best desktop Linux distro</title>
+      <link>https://nyrs.garden/posts/why-arch-is-the-best/</link>
+      <pubDate>Sat, 20 Jan 2024 21:37:03 +0100</pubDate>
+      
+      <guid>https://nyrs.garden/posts/why-arch-is-the-best/</guid>
+      <description>Why use Arch Linux? Linux and BSD, more than any other operating system, give you the freedom of choice. Why use Arch Linux and not another distribution like Ubuntu, which is more beginner friendly or Fedora? Well, here are some reasons for using Arch as a daily driver on your desktop. Arch is minimalist The base Arch Linux installation contains only the minimum necessary packages to boot into a tty on a working system.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nyrs&#39; garden</title>
+    <link>https://nyrs.garden/</link>
+    <description>Recent content on Nyrs&#39; garden</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 20 Mar 2024 12:30:33 +0100</lastBuildDate><atom:link href="https://nyrs.garden/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Contributing to open source projects with git</title>
+      <link>https://nyrs.garden/posts/git-cheatsheet/</link>
+      <pubDate>Wed, 20 Mar 2024 12:30:33 +0100</pubDate>
+      
+      <guid>https://nyrs.garden/posts/git-cheatsheet/</guid>
+      <description>This is a step by step guide on how to contribute to open source projects with git. It also acts as a cheatsheet for me as I always forget how to do it. Before telling you how you can contribute, I will tell you why you should even consider it. Why you should consider contributing to open source projects By contributing to public open source projects you can gain a lot of real-world experiencce and skills.</description>
+    </item>
+    
+    <item>
+      <title>(Almost) Everyone should have their own website</title>
+      <link>https://nyrs.garden/posts/everyone-should-have-a-website/</link>
+      <pubDate>Sat, 02 Mar 2024 19:42:33 +0100</pubDate>
+      
+      <guid>https://nyrs.garden/posts/everyone-should-have-a-website/</guid>
+      <description>I can proudly say that the last six months have been the most interesting months for the digital me. I have encountered so many interesting websites, most of them being personal websites/blogs related to technology, programming, online privacy and other things. I installed Linux for the first time in my life, I stopped playing video games. I created my own website. Many people don&amp;rsquo;t realize how many benefits they are to having your own website.</description>
+    </item>
+    
+    <item>
+      <title>Set up your website on the tor network</title>
+      <link>https://nyrs.garden/posts/set-your-site-up-on-the-tor-network/</link>
+      <pubDate>Wed, 28 Feb 2024 19:42:33 +0100</pubDate>
+      
+      <guid>https://nyrs.garden/posts/set-your-site-up-on-the-tor-network/</guid>
+      <description>Setting up your own website on the Tor network has many benefits, one of them being that you only need a server and no domain name to set it up. Another benefit is the privacy provided by .onion domains and the Tor network in general. Most registrars publish your personal information, which can be viewed on the public WHOIS database, for everyone to view and access. Furthermore, it is very easy to set up if you already have a clearnet website like mine.</description>
+    </item>
+    
+    <item>
+      <title>How to generate a customized .onion address</title>
+      <link>https://nyrs.garden/posts/custom-onion/</link>
+      <pubDate>Mon, 19 Feb 2024 19:42:33 +0100</pubDate>
+      
+      <guid>https://nyrs.garden/posts/custom-onion/</guid>
+      <description>After following this guide you should have a working tor .onion site. This .onion domain will be generated randomly and most likely won&amp;rsquo;t have anything to do with the actual domain name of your clearnet site. To changes this you can use a tool called mkp224o to generate a vanity tor onion v3 address. This guide will be for Debian users but it&amp;rsquo;s pretty easy to do it on any other os, you just have to know the name of the packages in the repos of you distro and change the command a little bit to fit your package manager.</description>
+    </item>
+    
+    <item>
+      <title>You do have something to hide.</title>
+      <link>https://nyrs.garden/posts/you-have-something-to-hide/</link>
+      <pubDate>Mon, 29 Jan 2024 19:42:33 +0100</pubDate>
+      
+      <guid>https://nyrs.garden/posts/you-have-something-to-hide/</guid>
+      <description>I want to start this with a quote: Arguing that you don&amp;rsquo;t care about the right to privacy because you have nothing to hide is no different than saying you don&amp;rsquo;t care about free speech because you have nothing to say. - Edward Snowden I really don&amp;rsquo;t know where this comes from but there is a common misconception that online privacy is for cybercriminals only. When talking to normal people about online privacy and anonymity you will often hear them say &amp;ldquo;But I have nothing to hide, so why should I even care.</description>
+    </item>
+    
+    <item>
+      <title>The war against web bloat begins (totally didn&#39;t steal the title from Luke Smith&#39;s video)</title>
+      <link>https://nyrs.garden/posts/war-against-bloat-begins/</link>
+      <pubDate>Mon, 29 Jan 2024 19:02:35 +0100</pubDate>
+      
+      <guid>https://nyrs.garden/posts/war-against-bloat-begins/</guid>
+      <description>Why I dislike bloated software Something I strongly dislike is bloat. A piece of software can be described as being bloated if it is full of unnecessary or even unwanted features. A perfect example would be the modern internet. Everything is full of malicious javascript code that intends to steal your data, which is then sold to the highest bidder. The simplest, most basic sites like recipe sites are full of javascript, which greatly increases the attack surface and is completely redundant considering the use of the website.</description>
+    </item>
+    
+    <item>
+      <title>Why arch is the best desktop Linux distro</title>
+      <link>https://nyrs.garden/posts/why-arch-is-the-best/</link>
+      <pubDate>Sat, 20 Jan 2024 21:37:03 +0100</pubDate>
+      
+      <guid>https://nyrs.garden/posts/why-arch-is-the-best/</guid>
+      <description>Why use Arch Linux? Linux and BSD, more than any other operating system, give you the freedom of choice. Why use Arch Linux and not another distribution like Ubuntu, which is more beginner friendly or Fedora? Well, here are some reasons for using Arch as a daily driver on your desktop. Arch is minimalist The base Arch Linux installation contains only the minimum necessary packages to boot into a tty on a working system.</description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>https://nyrs.garden/projects/</link>
+      <pubDate>Sat, 20 Jan 2024 13:34:33 +0100</pubDate>
+      
+      <guid>https://nyrs.garden/projects/</guid>
+      <description>This site lists some of my projects, ranging from small one-lines to bigger projects like this website. All of the source code is available on my own Gitea instance, on GitHub, on Gitlab and on Codeberg My projects - simple number game: A simple number game program with 3 different games written in python. Game 1 is a largest number guesser, game 2 is a smallest number guesser and game 3 is a random number guesser.</description>
+    </item>
+    
+    <item>
+      <title>Resources</title>
+      <link>https://nyrs.garden/resources/</link>
+      <pubDate>Fri, 12 Jan 2024 19:42:33 +0100</pubDate>
+      
+      <guid>https://nyrs.garden/resources/</guid>
+      <description>DISCLAIMER: Just because I list them here it doesn&amp;rsquo;t mean that I endorse everything that is listed in these resources. Always think about the things you read online and proceed with common sense. This is a place where I share very helpful resources about online privacy, Linux, BSD and FLOSS in general. I will also link to other websites I found on the world wide web that I liked or found interesting in some way.</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://nyrs.garden/about/</link>
+      <pubDate>Fri, 12 Jan 2024 19:02:35 +0100</pubDate>
+      
+      <guid>https://nyrs.garden/about/</guid>
+      <description>About this website This website is my digital garden where I can share my thoughts freely without restrictions. I will mostly be rambling about recent projects, philosophy, my Linux journey, online privacy and FLOSS (Free/Libre Open Source Software). Expect a new article/post every two to three weeks as I&amp;rsquo;m pretty busy with school and other things. Website mirrors: - tor - i2p (coming soon) About Me I am a student who is very passionate about GNU/Linux (BSD is pretty cool as well), FLOSS, programming, cybersecurity and cryptography.</description>
+    </item>
+    
+    <item>
+      <title>Posts</title>
+      <link>https://nyrs.garden/posts/postsintro/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://nyrs.garden/posts/postsintro/</guid>
+      <description>Software Online privacy You do have something to hide How-To How to generate a customized .onion address Society Linux Why Arch is the best Web The war against bloat begins (Almost) Everyone should have their own website Self-host Set up your website on the tor network Programming Contributing to open source projects with git </description>
+    </item>
+    
+  </channel>
+</rss>
