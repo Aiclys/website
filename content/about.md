@@ -7,7 +7,7 @@ date = 2024-01-12T19:02:35+01:00
 #### This website is my digital garden where I can share my thoughts freely without restrictions. I will mostly be rambling about recent projects, philosophy, my Linux journey, online privacy and FLOSS (Free/Libre Open Source Software). 
 #### Expect a new article/post every two to three weeks as I'm pretty busy with school and other things. 
 #### Website mirrors:
-#### - [tor](http://nyrsydbakktpwyzginicurpxweh3c4g3726lawc5azgjlcmsmxz6uyad.onion)
+#### - [tor](http://nyrsgajydgnf5eibfo3pybei7d2oluzzpxvpzaedbxabgdnmtzv2h6yd.onion)
 #### - [i2p]() (coming soon)
 
 # About Me 
