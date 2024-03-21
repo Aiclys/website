@@ -9,12 +9,6 @@ date = 2024-01-20T13:34:33+01:00
 ### My projects
 #### - **[simple number game]():** A simple number game program with 3 different games written in python. Game 1 is a largest number guesser, game 2 is a smallest number guesser and game 3 is a random number guesser.
 
-#### - **[bookmarks.sh]():** Just a simple one-liner for all of my bookmarks using dmenu.
-
-#### - **[emojis.sh]():** Simple one-liner using dmenu to have an emoji menu.
-
-#### - **[quotes.sh]():** A simple bash script that displays random quotes I like using dmenu.
-
 #### - **[nyrs' garden](https://nyrs.garden):** My personal website. It was built using the Hugo static site generator and my own theme called [Bonsai](https://github.com/Aiclys/Bonsia-Hugo-theme) based on the [Nightfall theme](https://themes.gohugo.io/themes/hugo-theme-nightfall/). Feel free to use it as a base template for your own website.
 
 #### - **[mAis](https://github.com/Aiclys/mais):** This is an Arch Linux installation script I made because I didn't want to do it manually all of the time. mAis stands for "my Arch installation script". There is a guided and an automatic mode. With this script you also have the option to install my [dotfiles](https://github.com/Aiclys/dotfiles) along with default Arch. 

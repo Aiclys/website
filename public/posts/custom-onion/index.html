@@ -109,6 +109,8 @@ make
 <pre tabindex="0"><code>cp -r ~/new_onion/name-of-your-address/ /var/lib/tor/hidden_service
 cd /var/lib/tor/hidden_service/name-of-your-address/
 cp * /var/lib/tor/hidden_service/
+cd ..
+rm -r new_onion/
 </code></pre><h3 id="restarting-tor">Restarting tor</h3>
 <pre tabindex="0"><code>sudo systemctl restart tor
 </code></pre><h4 id="to-check-if-everything-worked-correctly-use-this-command">To check if everything worked correctly use this command:</h4>

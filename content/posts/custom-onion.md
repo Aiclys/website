@@ -40,6 +40,8 @@ make
 cp -r ~/new_onion/name-of-your-address/ /var/lib/tor/hidden_service
 cd /var/lib/tor/hidden_service/name-of-your-address/
 cp * /var/lib/tor/hidden_service/
+cd ..
+rm -r new_onion/
 ```
 
 ### Restarting tor
