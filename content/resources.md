@@ -115,7 +115,7 @@ date = 2024-01-12T19:42:33+01:00
 &nbsp;
 # Software I use:
 #### All my configurations and dotfiles can be found on my GitHub at [https://github.com/Aiclys](https://github.com/Aiclys)
-![dotfiles](/gruv-1.png)
+![dotfiles](/dots_new.png)
 
 
 - ### Operating systems:
