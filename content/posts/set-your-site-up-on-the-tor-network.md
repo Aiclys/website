@@ -1,7 +1,7 @@
 +++
 title = 'Set up your website on the tor network'
 author = 'Nyrs'
-tags = ["how-to", "online privacy", "self host"]
+tags = ["guides", "online privacy", "self host"]
 date = 2024-02-28T19:42:33+01:00
 +++
 

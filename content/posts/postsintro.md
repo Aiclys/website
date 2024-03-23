@@ -5,24 +5,20 @@ author = "Nyrs"
 tags = ["index"]
 +++
 
-# Software
+## Topics
+### [Programming](/tags/programming) | [Online privacy](/tags/online-privacy) | [Self hosting](/tags/self-host) | [Software](/tags/software)
+### [Web](/tags/web) | [Linux](/tags/linux) | [Guides](/tags/guides) | [Philosophy](/tags/philosophy)
+&nbsp;
+&nbsp;
+## March
+- #### **March 20, 2024** - [Contributing to open source projects with git](/posts/git-cheatsheet)
+- #### **March 2, 2024** - [(Almost) Everyone should have their own website](/posts/everyone-should-have-a-website)
 
-# Online privacy
-- #### [You do have something to hide](/posts/you-have-something-to-hide)
+## February
+- #### **February 28, 2024** - [Set up your website on the tor network](/posts/set-your-site-up-on-the-tor-network)
+- #### **February 19, 2024** - [How to generate a customized .onion address](/posts/custom-onion)
+- #### **February 6, 2024** - [The war against bloat begins](/posts/war-against-bloat-begins)
 
-# How-To
-- #### [How to generate a customized .onion address](/posts/custom-onion)
-
-# Society
-
-# Linux
-- #### [Why Arch is the best](/posts/why-arch-is-the-best)
-
-# Web
-- #### [The war against bloat begins](/posts/war-against-bloat-begins)
-- #### [(Almost) Everyone should have their own website](/posts/everyone-should-have-a-website)
-
-# Self-host
-- #### [Set up your website on the tor network](/posts/set-your-site-up-on-the-tor-network)
-# Programming
-- #### [Contributing to open source projects with git](/posts/git-cheatsheet)
+## January
+- #### **January 29, 2024** - [You do have something to hide](/posts/you-have-something-to-hide)
+- #### **January 20, 2024** - [Why Arch is the best](/posts/why-arch-is-the-best)

@@ -1,6 +1,6 @@
 +++
 title = "The war against web bloat begins (totally didn't steal the title from Luke Smith's video)"
-date = 2024-01-29T19:02:35+01:00
+date = 2024-02-06T19:02:35+01:00
 author = 'Nyrs'
 tags = ["software", "web", "minimalism"]
 +++

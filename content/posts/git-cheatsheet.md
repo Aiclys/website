@@ -1,7 +1,7 @@
 +++
 title = 'Contributing to open source projects with git'
 author = 'Nyrs'
-tags = ["how-to", "programming"]
+tags = ["guides", "programming"]
 date = 2024-03-20T12:30:33+01:00
 +++
 
