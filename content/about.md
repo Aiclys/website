@@ -17,12 +17,17 @@ date = 2024-01-12T19:02:35+01:00
 &nbsp;
 # Skills
 
-## Programming skills
-#### *- HTML*
-#### *- CSS*
+## Computer related skills
+### Programming languages:
 #### *- SQL*
 #### *- Python*
-#### *- Bash (does it count as a programming language? I might as well put it here)*
+#### *- Bash*
+
+### Markup, styling and other kinds of weird non-programming languages
+#### *- HTML*
+#### *- CSS*
+#### *- Markdown*
+#### *- Learning LaTeX*
 
 ## Technologies
 #### *- GitHub*
@@ -31,7 +36,6 @@ date = 2024-01-12T19:02:35+01:00
 #### *- Debian*
 #### *- Nginx*
 #### *- Vim (Neovim)*
-#### *- Currently learning Emacs and its many features*
 &nbsp;
 &nbsp;
 &nbsp;
@@ -41,9 +45,9 @@ date = 2024-01-12T19:02:35+01:00
 ## Tech stuff
 
 ### Progamming
-#### I learned HTML and CSS about 3 years ago and created my first "real" website shortly after. I am now learning Python and Go, which are both very useful languages in cybersecurity.
+#### I learned HTML and CSS about 3 years ago and created my first "real" website shortly after. I am currently learning the Go programming language. I am also interested in cryptography, cybersecurity, machine learning, physics and maths.
 
-### Minimalism or why I hate bloat
+### Minimalism
 #### I love simplicity. I try to maximise the use of CLI software that follows the UNIX (Do one thing and do it well while being extensible simple) and KISS (Keep it simple, stupid!) philosophy. These are often keyboard driven which enables me to be much more efficient and get things done much faster. This way there are also less distractions and it is often easier to use, despite popular belief. Of course, there are exceptions: I don't use the most minimalist Linux or BSD, I use some GUIs etc. 
 &nbsp;
 &nbsp;
