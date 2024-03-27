@@ -36,13 +36,13 @@ sudo dnf install git
 
 #### After installing git, you need to set up a username and email. To do so use the following command where username is you Github username and useremail is your email:
 ```
-git --global user.name "username"
-git --global user.email "useremail"
+git config --global user.name "username"
+git config --global user.email "useremail"
 ```
 #### To check if everything worked correctly. type the following commands:
 ```
-git --global user.name
-git --global user.email
+git config --global user.name
+git config --global user.email
 ```
 #### There is a lot more configuring you can do. Visit the [git website](https://git-scm.com/book/en/v2/) and the [GitHub website](https://docs.github.com/en/get-started/getting-started-with-git/) for more information.
 &nbsp;
