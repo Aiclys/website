@@ -106,8 +106,10 @@ date = 2024-01-12T19:42:33+01:00
 - #### [Shadow Wiki](https://m.13f0.net/shadow_wiki/index.xhtml)
 - #### [Open source alternative to](https://www.opensourcealternative.to/)
 - #### [Eldritchdata](https://eldritchdata.neocities.org/)
-- #### [Privacy Guides](https://privacyguides.org/)
 - #### [Privacy tests](https://privacytests.org/)
+
+## Fake privacy initiatives:
+- #### [Privacy Guides](https://privacyguides.org/)
 - #### [Privacy tools](https://privacytools.io/)
 
 &nbsp;
@@ -134,7 +136,7 @@ date = 2024-01-12T19:42:33+01:00
     #### [Picom](https://github.com/yshui/picom) is the compositor I use to have cool blur and transparency effects. It is very customizable and has alot of forks that have cool animations and effects preconfigured like [dccsillag's picom](https://github.com/dccsillag/picom), [FT-Labs's picom](https://github.com/FT-Labs/picom) and many more.
 
 - ### Browsers:
-    #### I use multiple browsers for multiple things. I use [LibreWolf](https://librewolf.net/), [Tor](https://www.torproject.org/) and I'm currently also trying out [PaleMoon](https://www.palemoon.org/). These all are secure and privacy respecting, which is a very important thing to me. I also use multiple extension: [LibRedirect](https://addons.mozilla.org/en-US/firefox/addon/libredirect/) so I don't have to look at horrible websites such as Twitter, Reddit etc, [uBlock Origin](https://ublockorigin.com/) to block ads and trackers (I'm thinking about switching to [uMatrix](https://addons.mozilla.org/en-US/firefox/addon/umatrix/) as it gives you more controll over your privacy) and [Decentraleyes](https://decentraleyes.org/) which acts like a local CDN and can bypass CDN tracking. Oh and I also use [Vimium C](https://addons.mozilla.org/en-US/firefox/addon/vimium-c/) to have Vim keybinds.
+    #### I use multiple browsers for multiple things. I use [the Mullvad Browser](https://mullvad.net/en/browser) and [Tor](https://www.torproject.org/). These all are secure and privacy respecting, which is a very important thing to me. I also use multiple extension: [LibRedirect](https://addons.mozilla.org/en-US/firefox/addon/libredirect/) so I don't have to look at horrible websites such as Twitter, Reddit etc, [uBlock Origin](https://ublockorigin.com/) to block ads and trackers (I'm thinking about switching to [uMatrix](https://addons.mozilla.org/en-US/firefox/addon/umatrix/) as it gives you more controll over your privacy) and [Decentraleyes](https://decentraleyes.org/) which acts like a local CDN and can bypass CDN tracking. Oh and I also use [Vimium C](https://addons.mozilla.org/en-US/firefox/addon/vimium-c/) to have Vim keybinds.
     
 - ### File Managers:
   #### [Thunar](https://docs.xfce.org/xfce/thunar/start) is my GUI file manager. It is simple, lightweight and easily customizable. I also use a CLI file manager called [Ranger](https://github.com/ranger/ranger) that uses Vim keybindings and is pretty fast and extensible.
@@ -146,8 +148,7 @@ date = 2024-01-12T19:42:33+01:00
   #### [Doom Emacs](https://github.com/doomemacs/doomemacs) is my editor of choice. Thanks to evil mode it has all of the Vim bindings so it combines the power of GNU Emacs and Vim which makes it very practical to use. If I were proficient enough in Elisp I would probably build my own Emacs with plugins that I want but I hardly understand anything related to Elisp at the moment.
 
 - ### App Launcher: 
-  #### I first considered using dmenu as my application launcher because I liked the Suckless philosophy but then I found [Rofi](https://github.com/davatorium/rofi) which is basically dmenu with more features and less hurdles. It's very easy to configure and it's very fast and light. I recommend [Adi1090x's rofi configs](https://github.com/adi1090x/rofi) to get started.
- 
+  #### I first considered using dmenu as my application launcher because I liked the Suckless philosophy but then I found [Rofi](https://github.com/davatorium/rofi) which is basically dmenu with more features and less hurdles. It's very easy to configure and it's very fast and light. I recommend [Adi1090x's rofi configs](https://github.com/adi1090x/rofi) to get started (it's a bit bloated though). 
 &nbsp;
 &nbsp;
 &nbsp;
