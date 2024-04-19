@@ -9,49 +9,49 @@ date = 2024-02-19T19:42:33+01:00
 
 ### Install dependencies
 ```
-sudo apt install gcc libc6-dev libsodium-dev make autoconf
+$ sudo apt install gcc libc6-dev libsodium-dev make autoconf
 ```
 
 ### Clone the Git repo
 ```
-git clone https://github.com/cathugger/mkp224o.git
+$ git clone https://github.com/cathugger/mkp224o.git
 ```
 
 ### Change into the mkp224o directory
 ```
-cd mkp224o
+$ cd mkp224o
 ```
 
 ### Building mkp224o
 ```
-./autogen.sh
-./configure
-make
+$ ./autogen.sh
+$ ./configure
+$ make
 ```
 
 ### Generating the vanity address
 #### Replace "desired-key" with the key you want, for example the first 5 letters of your clearnet domain. The shorter the key, the less time it will take to generate it. You also need to replace "number-of-threads" with the number of threads you want to use for this operation (the more threads you use, the faster it will generate the address).
 ```
-./mkp224o desired-key -v -n 1 -d -d ~/new_onion -t number-of-threads
+$ ./mkp224o desired-key -v -n 1 -d -d ~/new_onion -t number-of-threads
 ```
 
 ###  Copying the address to the tor hidden service directory
 ```
-cp -r ~/new_onion/name-of-your-address/ /var/lib/tor/hidden_service
-cd /var/lib/tor/hidden_service/name-of-your-address/
-cp * /var/lib/tor/hidden_service/
-cd ..
-rm -r new_onion/
+$ cp -r ~/new_onion/name-of-your-address/ /var/lib/tor/hidden_service
+$ cd /var/lib/tor/hidden_service/name-of-your-address/
+$ cp * /var/lib/tor/hidden_service/
+$ cd ..
+$ rm -r new_onion/
 ```
 
 ### Restarting tor
 ```
-sudo systemctl restart tor
+$ sudo systemctl restart tor
 ```
 
 #### To check if everything worked correctly use this command:
 ```
-cat /var/lib/tor/hidden_service/hostname
+$ cat /var/lib/tor/hidden_service/hostname
 ```
 #### If this now outputs the correct .onion address, it worked just fine.
 &nbsp;

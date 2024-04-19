@@ -87,13 +87,160 @@ How to set up mpd with mpc and ncmpcpp | Nyrs&#39; garden
             
             
                 <dt>reading time</dt>
-                <dd>1 minute</dd>
+                <dd>5 minutes</dd>
             
         </dl>
     </section>
     
     <div>
-        <h4 id="heading"></h4>
+        <h2 id="intro">Intro</h2>
+<h4 id="why-should-you-use-mpd-mpc-and-ncmpcpp-and-what-are-they-mpd-is-a-minimalistic-but-powerful-music-clientdaemon-that-is-used-as-backend-in-a-lot-of-different-apps-for-playing-music-managing-it-without-any-frontend-is-nearly-impossible-which-is-why-it-is-often-used-in-combination-with-mpc-for-control-and-ncmpcpp-as-frontend-to-do-things-like-browsing-music-files-choosing-the-song-arranging-playlists-etc-ncurses-music-player-client-plus-plus-also-called-ncmpcpp-is-a-rewrite-of-ncmpc-in-c-hence-the-plus-plus-it-also-added-new-features-such-as-extended-song-formats-a-local-file-system-browser-and-many-more-these-three-applications-excel-in-their-ability-of-being-highly-customizable-and-flexible-while-being-extremely-fast-and-lightweight-which-is-why-i-and-a-lot-of-other-people-use-it-instead-of-services-like-spotify">Why should you use mpd, mpc and ncmpcpp and what are they? Mpd is a minimalistic but powerful music client/daemon that is used as backend in a lot of different apps for playing music. Managing it without any frontend is nearly impossible, which is why it is often used in combination with mpc for control and ncmpcpp as frontend to do things like browsing music files, choosing the song, arranging playlists etc. NCurses Music Player Client Plus Plus, also called ncmpcpp, is a rewrite of ncmpc in C++ (hence the plus plus). It also added new features such as extended song formats, a local file system browser and many more. These three applications excel in their ability of being highly customizable and flexible while being extremely fast and lightweight which is why I and a lot of other people use it instead of services like Spotify.</h4>
+<p> 
+ </p>
+<h2 id="installation">Installation</h2>
+<h3 id="install-on-arch-linux-and-its-many-decendants">Install on Arch Linux and it&rsquo;s many decendants:</h3>
+<h4 id="install-the-stable-version-through-the-official-repos">Install the stable version through the official repos:</h4>
+<pre tabindex="0"><code>$ sudo pacman -S mpd ncmpcpp mpc
+</code></pre><h4 id="or-the-latest-development-version-using-the-aur">or the latest development version using the AUR:</h4>
+<pre tabindex="0"><code>$ paru -S mpd-git ncmpcpp-git mpc-git
+	or
+$ yay -S mpd-git ncmpcpp-git mpc-git
+</code></pre><h3 id="install-on-debian-and-its-many-decendants">Install on Debian and it&rsquo;s many decendants:</h3>
+<pre tabindex="0"><code>$ sudo apt-get install mpd ncmpcpp mpc
+</code></pre><p> 
+ </p>
+<h2 id="configuration">Configuration</h2>
+<h3 id="mpd">mpd</h3>
+<h4 id="mpd-recognizes-multiple-foldersfiles-as-configuration-files-this-means-that-you-can-place-your-configuration-file-in-etcmpdconf-configmpdmpdconf-mpdconf-or-in-mpdmpdconf-i-prefer-mpdmpdconf-but-you-can-change-it-to-your-preference-if-your-chosen-directory-doesnt-exist-yet-create-it-after-instaling-mpd-it-will-most-likely-be-launched-as-a-system-service-automatically-which-i-dont-want-to-run-mpd-as-a-user-process-you-need-to-disable-the-mpd-system-service-and-launch-mpd-manually-to-start-it">Mpd recognizes multiple folders/files as configuration files. This means that you can place your configuration file in <code>/etc/mpd.conf</code>, <code>~/.config/mpd/mpd.conf</code>, <code>~/.mpdconf</code> or in <code>~/.mpd/mpd.conf</code>. I prefer <code>~/.mpd/mpd.conf</code> but you can change it to your preference. If your chosen directory doesn&rsquo;t exist yet, create it. After instaling mpd it will most likely be launched as a system service automatically, which I don&rsquo;t want. To run mpd as a user process you need to disable the mpd system service and launch mpd manually to start it:</h4>
+<pre tabindex="0"><code>$ sudo systemctl disable mpd.service
+$ sudo systemctl disable mpd.socket
+</code></pre><h4 id="if-you-want-to-use-it-as-a-system-service-you-need-to-execute-the-following-commands-to-add-mpd-to-your-login-and-audio-group">If you want to use it as a system service you need to execute the following commands to add mpd to your login and audio group:</h4>
+<pre tabindex="0"><code>$ sudo gpasswd -a mpd your_login_group
+$ chmod 710 ~/
+$ sudo gpasswd -a mpd audio
+</code></pre><h4 id="now-its-time-to-create-the-config-file-and-add-the-following-content-to-it">Now it&rsquo;s time to create the config file and add the following content to it:</h4>
+<pre tabindex="0"><code> bind_to_address &#34;127.0.0.1&#34;
+ #bind_to_address &#34;~/.mpd/socket&#34;
+ music_directory &#34;~/your_music_folder&#34;
+ playlist_directory &#34;~/your_playlist_folder&#34;   
+ db_file      &#34;~/.mpd/mpd.db&#34;  
+ log_file      &#34;~/.mpd/mpd.log&#34;  
+ pid_file      &#34;~/.mpd/mpd.pid&#34;  
+ state_file     &#34;~/.mpd/mpdstate&#34;  
+ audio_output {  
+
+     type  &#34;pulse&#34;  
+     name  &#34;pulse audio&#34;
+     device         &#34;pulse&#34; 
+     mixer_type      &#34;hardware&#34; 
+ }  
+
+audio_output {
+    type                    &#34;fifo&#34;
+    name                    &#34;my_fifo&#34;
+    path                    &#34;/tmp/mpd.fifo&#34;
+    format                  &#34;44100:16:2&#34;
+}
+</code></pre><h4 id="if-you-want-to-use-alsa-instead-of-pulseaudio-change-the-audio_output-code-block-as-follows">If you want to use alsa instead of pulseaudio, change the <code>audio_output</code> code block as follows:</h4>
+<pre tabindex="0"><code>audio_output {
+        type            &#34;alsa&#34;
+        name            &#34;alsa for audio sound card&#34;
+        mixer_type      &#34;software&#34; 
+}
+</code></pre><h3 id="ncmpcpp">ncmpcpp</h3>
+<h4 id="here-is-my-config-file-the-config-file-should-be-located-inncmpcppconfig-so-create-the-folder-if-it-isnt-there-already">Here is my config file (the config file should be located in~/.ncmpcpp/config so create the folder if it isn&rsquo;t there already):</h4>
+<pre tabindex="0"><code>## Files ##
+mpd_music_dir = &#34;your_music_folder&#34;  
+ncmpcpp_directory  = ~/.ncmpcpp
+mpd_host = &#34;localhost&#34;
+mpd_port = &#34;6600&#34;  
+mpd_connection_timeout = &#34;5&#34;  
+mpd_crossfade_time = &#34;3&#34;  
+
+## Playlist ##
+playlist_disable_highlight_delay = &#34;0&#34;  
+playlist_display_mode = &#34;columns&#34;  
+playlist_show_remaining_time = &#34;yes&#34;
+
+browser_display_mode = &#34;columns&#34;  
+autocenter_mode = &#34;yes&#34;  
+fancy_scrolling = &#34;yes&#34;  
+follow_now_playing_lyrics = &#34;yes&#34;  
+display_screens_numbers_on_start = &#34;yes&#34;  
+ignore_leading_the = &#34;yes&#34;  
+lyrics_database = &#34;1&#34;  
+song_columns_list_format = &#34;(10)[blue]{l} (30)[green]{a} (30)[magenta]{b} (50)[yellow]{t}&#34;  
+colors_enabled = &#34;yes&#34;  
+main_window_color = &#34;white&#34;  
+main_window_highlight_color =  &#34;blue&#34;
+header_window_color = &#34;cyan&#34;  
+volume_color = &#34;red&#34;  
+progressbar_color = &#34;white&#34;  
+statusbar_color = &#34;white&#34;  
+active_column_color = &#34;cyan&#34;  
+active_window_border = &#34;blue&#34;
+
+alternative_header_first_line_format = &#34;$0$aqqu$/a {$7%a - $9}{$5%t$9}|{$8%f$9} $0$atqq$/a$9&#34;
+alternative_header_second_line_format = &#34;{{$6%b$9}{ [$6%y$9]}}|{%D}&#34;
+song_list_format = &#34;{$3%n │ $9}{$7%a - $9}{$5%t$9}|{$8%f$9}$R{$6 │ %b$9}{$3 │ %l$9}&#34;
+user_interface = &#34;alternative&#34;
+#user_interface = &#34;classic&#34;
+default_place_to_search_in = &#34;database&#34;
+
+## Visualizer ##
+visualizer_fifo_path = &#34;/tmp/mpd.fifo&#34;
+visualizer_output_name = &#34;my_fifo&#34;
+visualizer_sync_interval = &#34;12&#34;
+visualizer_type = &#34;wave&#34; (spectrum/wave)
+#visualizer_type = &#34;spectrum&#34; (spectrum/wave)
+visualizer_in_stereo = &#34;yes&#34;
+visualizer_look = &#34;●┃&#34;
+
+## Navigation ##
+cyclic_scrolling = &#34;yes&#34;
+header_text_scrolling = &#34;yes&#34;
+jump_to_now_playing_song_at_start = &#34;yes&#34;
+lines_scrolled = &#34;2&#34;
+
+## Other ##
+system_encoding = &#34;utf-8&#34;
+regular_expressions = &#34;extended&#34;
+
+## Selected tracks ##
+selected_item_prefix = &#34;* &#34;
+discard_colors_if_item_is_selected = &#34;no&#34;
+
+## Seeking ##
+incremental_seeking = &#34;yes&#34;
+seek_time = &#34;1&#34;
+
+## Visivility ##
+header_visibility = &#34;yes&#34;
+statusbar_visibility = &#34;yes&#34;
+titles_visibility = &#34;yes&#34;
+progressbar_look =  &#34;-&gt;_&#34;
+progressbar_boldness = &#34;yes&#34;
+progressbar_elapsed_color = &#34;white&#34;
+now_playing_prefix = &#34;&gt;&gt; &#34;
+song_status_format = &#34; $2%a $4⟫$3⟫ $8%t $4⟫$3⟫ $5%b &#34;
+autocenter_mode = &#34;yes&#34;
+centered_cursor = &#34;yes&#34;
+
+## Misc ##
+display_bitrate = &#34;yes&#34;
+# enable_window_title = &#34;no&#34;
+follow_now_playing_lyrics = &#34;yes&#34;
+ignore_leading_the = &#34;yes&#34;
+empty_tag_marker = &#34;&#34;
+</code></pre><h4 id="to-get-the-full-example-config-file-view-the-content-in-this-file-usrsharedocncmpcppconfig-and-copy-it-over-to-your-config-folder-if-needed-there-are-near-endless-configuration-possibilities-which-is-why-i-wont-go-every-one-of-them-here-but-you-want-a-more-detailed-explanation-read-the-man-pages-by-using-the-following-command-man-ncmpcpp-or-just-read-the-comments-in-the-example-config-file">To get the full example config file view the content in this file: <code>/usr/share/doc/ncmpcpp/config</code> and copy it over to your config folder if needed. There are near endless configuration possibilities, which is why I won&rsquo;t go every one of them here but you want a more detailed explanation, read the man pages by using the following command <code>man ncmpcpp</code> or just read the comments in the example config file.</h4>
+<h3 id="mpc">mpc</h3>
+<h4 id="mpc-doesnt-really-have-any-configuration-the-only-things-mpc-is-used-for-is-to-skipgo-back-a-song-and-to-do-other-miscelleanous-multimedia-and-audio-things-you-could-bind-the-standard-mpc-command-mpc-stop-mpc-toggle-mpc-prev-mpc-next-etc-to-somekeybinds-to-have-some-extra-functionality-if-you-want-to">Mpc doesn&rsquo;t really have any configuration. The only things mpc is used for is to skip/go back a song and to do other miscelleanous multimedia and audio things. You could bind the standard mpc command (<code>mpc stop</code>, <code>mpc toggle</code>, <code>mpc prev</code>, <code>mpc next</code> etc&hellip;) to somekeybinds to have some extra functionality if you want to.</h4>
+<p> 
+ </p>
+<h2 id="usage">Usage</h2>
+<h4 id="before-launching-ncmpcpp-start-by-launching-mpd">Before launching ncmpcpp, start by launching mpd:</h4>
+<pre tabindex="0"><code>$ mpd
+</code></pre><h4 id="once-you-launched-mpd-launch-ncmpcpp-by-just-typing-ncmpcpp-in-your-terminal-press-u-to-update-the-database-which-will-automatically-load-the-audio-files-in-your-music-folder-to-see-some-of-the-default-keybinds-that-you-can-use-for-navigation-and-control-visit-the-projects-githubhttpsgistgithubcomahushh4bb5fbc38e149bfd6a08">Once you launched mpd, launch ncmpcpp by just typing <code>ncmpcpp</code> in your terminal press <code>u</code> to update the database, which will automatically load the audio files in your music folder. To see some of the default keybinds that you can use for navigation and control visit <a href="https://gist.github.com/ahushh/4bb5fbc38e149bfd6a08">the project&rsquo;s GitHub</a>.</h4>
 <p> 
  </p>
 <h2 id="go-backpostspostsintro"><a href="/posts/postsintro">Go back</a></h2>
