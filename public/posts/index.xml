@@ -6,7 +6,16 @@
     <description>Recent content in Posts on Nyrs&#39; garden</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 20 Mar 2024 12:30:33 +0100</lastBuildDate><atom:link href="https://nyrs.garden/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 12 Apr 2024 14:42:33 +0100</lastBuildDate><atom:link href="https://nyrs.garden/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to set up mpd with mpc and ncmpcpp</title>
+      <link>https://nyrs.garden/posts/how-to-set-up-ncmpcpp/</link>
+      <pubDate>Fri, 12 Apr 2024 14:42:33 +0100</pubDate>
+      
+      <guid>https://nyrs.garden/posts/how-to-set-up-ncmpcpp/</guid>
+      <description> Go back </description>
+    </item>
+    
     <item>
       <title>Contributing to open source projects with git</title>
       <link>https://nyrs.garden/posts/git-cheatsheet/</link>
@@ -76,7 +85,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://nyrs.garden/posts/postsintro/</guid>
-      <description>Topics Programming | Online privacy | Self hosting | Software Web | Linux | Guides | Philosophy March March 20, 2024 - Contributing to open source projects with git March 2, 2024 - (Almost) Everyone should have their own website February February 28, 2024 - Set up your website on the tor network February 19, 2024 - How to generate a customized .onion address February 6, 2024 - The war against bloat begins January January 29, 2024 - You do have something to hide January 20, 2024 - Why Arch is the best </description>
+      <description>Topics Programming | Online privacy | Self hosting | Software Web | Linux | Minimalism | Guides | CLI | Philosophy April April 12, 2024 - How to set up mpd with mpc and ncmpcpp March March 20, 2024 - Contributing to open source projects with git March 2, 2024 - (Almost) Everyone should have their own website February February 28, 2024 - Set up your website on the tor network February 19, 2024 - How to generate a customized .</description>
     </item>
     
   </channel>

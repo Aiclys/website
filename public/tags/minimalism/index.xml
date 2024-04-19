@@ -6,7 +6,16 @@
     <description>Recent content in minimalism on Nyrs&#39; garden</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 06 Feb 2024 19:02:35 +0100</lastBuildDate><atom:link href="https://nyrs.garden/tags/minimalism/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 12 Apr 2024 14:42:33 +0100</lastBuildDate><atom:link href="https://nyrs.garden/tags/minimalism/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to set up mpd with mpc and ncmpcpp</title>
+      <link>https://nyrs.garden/posts/how-to-set-up-ncmpcpp/</link>
+      <pubDate>Fri, 12 Apr 2024 14:42:33 +0100</pubDate>
+      
+      <guid>https://nyrs.garden/posts/how-to-set-up-ncmpcpp/</guid>
+      <description> Go back </description>
+    </item>
+    
     <item>
       <title>The war against web bloat begins (totally didn&#39;t steal the title from Luke Smith&#39;s video)</title>
       <link>https://nyrs.garden/posts/war-against-bloat-begins/</link>

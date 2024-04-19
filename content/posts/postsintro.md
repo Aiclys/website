@@ -7,9 +7,11 @@ tags = ["index"]
 
 ## Topics
 ### [Programming](/tags/programming) | [Online privacy](/tags/online-privacy) | [Self hosting](/tags/self-host) | [Software](/tags/software)
-### [Web](/tags/web) | [Linux](/tags/linux) | [Guides](/tags/guides) | [Philosophy](/tags/philosophy)
+### [Web](/tags/web) | [Linux](/tags/linux) | [Minimalism](/tags/minimalism) | [Guides](/tags/guides) | [CLI](/tags/cli) | [Philosophy](/tags/philosophy)
 &nbsp;
 &nbsp;
+## April
+- #### **April 12, 2024** - [How to set up mpd with mpc and ncmpcpp](/posts/how-to-set-up-ncmpcpp)
 ## March
 - #### **March 20, 2024** - [Contributing to open source projects with git](/posts/git-cheatsheet)
 - #### **March 2, 2024** - [(Almost) Everyone should have their own website](/posts/everyone-should-have-a-website)

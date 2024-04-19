@@ -12,7 +12,7 @@ date = 2024-01-12T19:02:35+01:00
 
 # About Me 
 
-#### I am a student who is very passionate about GNU/Linux (BSD is pretty cool as well), FLOSS, programming, cybersecurity and cryptography. I am also an avid reader so I might write some book reviews. You can contact me via email by clicking [here](mailto:contact@nyrs.garden)
+#### I am a student who is very passionate about GNU/Linux (BSD is pretty cool as well), FLOSS, programming, competitive programming and cryptography. I am also an avid reader so I might write some book reviews. You can contact me via email by clicking [here](mailto:contact@nyrs.garden)
 &nbsp;
 &nbsp;
 # Skills
@@ -21,6 +21,7 @@ date = 2024-01-12T19:02:35+01:00
 ### Programming languages:
 #### *- SQL*
 #### *- Python*
+#### *- Java (currently learning)*
 #### *- Bash*
 
 ### Markup, styling and other kinds of weird non-programming languages
@@ -45,7 +46,7 @@ date = 2024-01-12T19:02:35+01:00
 ## Tech stuff
 
 ### Progamming
-#### I learned HTML and CSS about 3 years ago and created my first "real" website shortly after. I am currently learning the Go programming language. I am also interested in cryptography, cybersecurity, machine learning, physics and maths.
+#### I learned HTML and CSS about 3 years ago and created my first "real" website shortly after. I am currently learning Java by learning data structures and algorithms and doing competitive programming. I am also interested in cryptography, cybersecurity, machine learning, physics and maths.
 
 ### Minimalism
 #### I love simplicity. I try to maximise the use of CLI software that follows the UNIX (Do one thing and do it well while being extensible simple) and KISS (Keep it simple, stupid!) philosophy. These are often keyboard driven which enables me to be much more efficient and get things done much faster. This way there are also less distractions and it is often easier to use, despite popular belief. Of course, there are exceptions: I don't use the most minimalist Linux or BSD, I use some GUIs etc. 
