@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>cli on Nyrs&#39; garden</title>
+    <link>https://nyrs.garden/tags/cli/</link>
+    <description>Recent content in cli on Nyrs&#39; garden</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 12 Apr 2024 14:42:33 +0100</lastBuildDate><atom:link href="https://nyrs.garden/tags/cli/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to set up mpd with mpc and ncmpcpp</title>
+      <link>https://nyrs.garden/posts/how-to-set-up-ncmpcpp/</link>
+      <pubDate>Fri, 12 Apr 2024 14:42:33 +0100</pubDate>
+      
+      <guid>https://nyrs.garden/posts/how-to-set-up-ncmpcpp/</guid>
+      <description> Go back </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -6,7 +6,16 @@
     <description>Recent content in linux on Nyrs&#39; garden</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 20 Jan 2024 21:37:03 +0100</lastBuildDate><atom:link href="https://nyrs.garden/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 12 Apr 2024 14:42:33 +0100</lastBuildDate><atom:link href="https://nyrs.garden/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to set up mpd with mpc and ncmpcpp</title>
+      <link>https://nyrs.garden/posts/how-to-set-up-ncmpcpp/</link>
+      <pubDate>Fri, 12 Apr 2024 14:42:33 +0100</pubDate>
+      
+      <guid>https://nyrs.garden/posts/how-to-set-up-ncmpcpp/</guid>
+      <description> Go back </description>
+    </item>
+    
     <item>
       <title>Why arch is the best desktop Linux distro</title>
       <link>https://nyrs.garden/posts/why-arch-is-the-best/</link>

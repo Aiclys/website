@@ -2,22 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://nyrs.garden/tags/cli/</loc>
+    <lastmod>2024-04-12T14:42:33+01:00</lastmod>
+  </url><url>
+    <loc>https://nyrs.garden/tags/guides/</loc>
+    <lastmod>2024-04-12T14:42:33+01:00</lastmod>
+  </url><url>
+    <loc>https://nyrs.garden/posts/how-to-set-up-ncmpcpp/</loc>
+    <lastmod>2024-04-12T14:42:33+01:00</lastmod>
+  </url><url>
+    <loc>https://nyrs.garden/tags/linux/</loc>
+    <lastmod>2024-04-12T14:42:33+01:00</lastmod>
+  </url><url>
+    <loc>https://nyrs.garden/tags/minimalism/</loc>
+    <lastmod>2024-04-12T14:42:33+01:00</lastmod>
+  </url><url>
+    <loc>https://nyrs.garden/</loc>
+    <lastmod>2024-04-12T14:42:33+01:00</lastmod>
+  </url><url>
+    <loc>https://nyrs.garden/posts/</loc>
+    <lastmod>2024-04-12T14:42:33+01:00</lastmod>
+  </url><url>
+    <loc>https://nyrs.garden/tags/software/</loc>
+    <lastmod>2024-04-12T14:42:33+01:00</lastmod>
+  </url><url>
+    <loc>https://nyrs.garden/tags/</loc>
+    <lastmod>2024-04-12T14:42:33+01:00</lastmod>
+  </url><url>
     <loc>https://nyrs.garden/posts/git-cheatsheet/</loc>
     <lastmod>2024-03-20T12:30:33+01:00</lastmod>
   </url><url>
-    <loc>https://nyrs.garden/tags/guides/</loc>
-    <lastmod>2024-03-20T12:30:33+01:00</lastmod>
-  </url><url>
-    <loc>https://nyrs.garden/</loc>
-    <lastmod>2024-03-20T12:30:33+01:00</lastmod>
-  </url><url>
-    <loc>https://nyrs.garden/posts/</loc>
-    <lastmod>2024-03-20T12:30:33+01:00</lastmod>
-  </url><url>
     <loc>https://nyrs.garden/tags/programming/</loc>
-    <lastmod>2024-03-20T12:30:33+01:00</lastmod>
-  </url><url>
-    <loc>https://nyrs.garden/tags/</loc>
     <lastmod>2024-03-20T12:30:33+01:00</lastmod>
   </url><url>
     <loc>https://nyrs.garden/posts/everyone-should-have-a-website/</loc>
@@ -38,12 +53,6 @@
     <loc>https://nyrs.garden/posts/custom-onion/</loc>
     <lastmod>2024-02-19T19:42:33+01:00</lastmod>
   </url><url>
-    <loc>https://nyrs.garden/tags/minimalism/</loc>
-    <lastmod>2024-02-06T19:02:35+01:00</lastmod>
-  </url><url>
-    <loc>https://nyrs.garden/tags/software/</loc>
-    <lastmod>2024-02-06T19:02:35+01:00</lastmod>
-  </url><url>
     <loc>https://nyrs.garden/posts/war-against-bloat-begins/</loc>
     <lastmod>2024-02-06T19:02:35+01:00</lastmod>
   </url><url>
@@ -54,9 +63,6 @@
     <lastmod>2024-01-29T19:42:33+01:00</lastmod>
   </url><url>
     <loc>https://nyrs.garden/tags/arch/</loc>
-    <lastmod>2024-01-20T21:37:03+01:00</lastmod>
-  </url><url>
-    <loc>https://nyrs.garden/tags/linux/</loc>
     <lastmod>2024-01-20T21:37:03+01:00</lastmod>
   </url><url>
     <loc>https://nyrs.garden/posts/why-arch-is-the-best/</loc>
